@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="driverFactory.DriverScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="stratTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- driverFactory.DriverScript -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="CustomerTest(failed)">
+    <classes>
+      <class name="driverFactory.TestScript">
+        <methods>
+          <include name="startTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- driverFactory.TestScript -->
+    </classes>
+  </test> <!-- CustomerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
